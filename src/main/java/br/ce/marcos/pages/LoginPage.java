@@ -1,7 +1,5 @@
 package br.ce.marcos.pages;
 
-import org.openqa.selenium.By;
-
 import br.ce.marcos.core.BasePage;
 import br.ce.marcos.core.DriverFactory;
 
@@ -21,8 +19,7 @@ public class LoginPage extends BasePage {
 		}
 		
 		public void entrar() {
-			clicarBotao(By.xpath("//button[.='Entrar']"));
-			
+			clicarBotaoPorTexto("Entrar");
 		}
 		
 		public void logar(String email, String senha) {
