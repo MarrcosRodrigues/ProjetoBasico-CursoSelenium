@@ -1,5 +1,7 @@
 package br.ce.marcos.tests;
 
+import static br.ce.marcos.core.DriverFactory.getDriver;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -20,7 +22,13 @@ public class ResumoTest extends BaseTest {
 		
 		Assert.assertEquals("Movimentação removida com sucesso!", resumoPage.obterMensagemSucesso());
 		
+	}
+	
+	@Test
+	public void testResumoMensal() {
+		menuPage.acessarTelaResumo();
 		
+		Assert.assertEquals("Seu Barriga - Extrato", getDriver().getTitle());
 	}
 
 }
