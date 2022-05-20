@@ -3,19 +3,22 @@ package br.ce.marcos.tests;
 import static br.ce.marcos.core.DriverFactory.getDriver;
 
 import org.junit.Assert;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
 import br.ce.marcos.core.BaseTest;
 import br.ce.marcos.pages.MenuPage;
 import br.ce.marcos.pages.ResumoPage;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ResumoTest extends BaseTest {
 	
 	private MenuPage menuPage = new MenuPage();
 	private ResumoPage resumoPage = new ResumoPage();
 	
 	@Test
-	public void testExcluirMovimentacao() {
+	public void test1ExcluirMovimentacao() {
 		menuPage.acessarTelaResumo();
 		
 		resumoPage.excluirMovimentacao();
@@ -25,7 +28,7 @@ public class ResumoTest extends BaseTest {
 	}
 	
 	@Test
-	public void testResumoMensal() {
+	public void test2ResumoMensal() {
 		menuPage.acessarTelaResumo();
 		
 		Assert.assertEquals("Seu Barriga - Extrato", getDriver().getTitle());
