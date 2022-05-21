@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
 import br.ce.marcos.core.BaseTest;
+import br.ce.marcos.core.Propriedades;
 import br.ce.marcos.pages.ContasPage;
 import br.ce.marcos.pages.MenuPage;
 
@@ -31,7 +32,7 @@ public class ContaTest extends BaseTest {
 		menuPage.acessarTelaListarConta();
 		
 		contasPage.clicarAlterarConta("Conta do Teste");
-		contasPage.setNome("Conta do Teste alterada");
+		contasPage.setNome(Propriedades.NOME_CONTA_ALTERADA);
 		contasPage.salvar();
 		
 		Assert.assertEquals("Conta alterada com sucesso!", contasPage.obterMensagemSucesso());
@@ -42,7 +43,7 @@ public class ContaTest extends BaseTest {
 	public void test_3InserirContaMesmoNome() {
 		menuPage.acessarTelaInserirConta();
 		
-		contasPage.setNome("Conta do Teste alterada");
+		contasPage.setNome(Propriedades.NOME_CONTA_ALTERADA);
 		contasPage.salvar();
 		Assert.assertEquals("Já existe uma conta com esse nome!", contasPage.obterMensagemErro());
 	}
