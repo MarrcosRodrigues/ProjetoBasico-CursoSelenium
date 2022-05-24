@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: br.ce.marcos.tests.RemoverMovimentacaoContaTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.692 s <<< FAILURE! - in br.ce.marcos.tests.RemoverMovimentacaoContaTest
+testExcluirContaComMovimentacao(br.ce.marcos.tests.RemoverMovimentacaoContaTest)  Time elapsed: 0.692 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=101.0.1210.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'MARCOS', ip: '26.49.114.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_331'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fde981de7b759105ed599d8b98c6ce7d, clickElement {id=1afdfbf6-f926-4c1e-a11f-626673157ffc}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:50770}, msedge: {msedgedriverVersion: 101.0.1210.32 (f7af80761c68..., userDataDir: C:\Users\m4rco\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50770/devtoo..., se:cdpVersion: 101.0.1210.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (fde981de7b759105ed599d8b98c6ce7d)] -> link text: Contas]
+Session ID: fde981de7b759105ed599d8b98c6ce7d
+	at br.ce.marcos.tests.RemoverMovimentacaoContaTest.testExcluirContaComMovimentacao(RemoverMovimentacaoContaTest.java:18)
+
