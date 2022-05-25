@@ -1,16 +1,12 @@
 package br.ce.marcos.tests;
 
 import org.junit.Assert;
-import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runners.MethodSorters;
 
 import br.ce.marcos.core.BaseTest;
 import br.ce.marcos.pages.ContasPage;
 import br.ce.marcos.pages.MenuPage;
 
-
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ContaTest extends BaseTest {
 	
 	MenuPage menuPage = new MenuPage();

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.ce.marcos.tests.ResumoTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.624 s - in br.ce.marcos.tests.ResumoTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.912 sec - in br.ce.marcos.tests.ResumoTest

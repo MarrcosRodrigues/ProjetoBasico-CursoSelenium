@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.ce.marcos.tests.RemoverMovimentacaoContaTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.408 s - in br.ce.marcos.tests.RemoverMovimentacaoContaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.746 sec - in br.ce.marcos.tests.RemoverMovimentacaoContaTest

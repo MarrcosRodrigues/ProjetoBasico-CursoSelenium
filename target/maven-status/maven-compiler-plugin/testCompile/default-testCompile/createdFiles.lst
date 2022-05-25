@@ -5,6 +5,7 @@ br\ce\marcos\pages\LoginPage.class
 br\ce\marcos\tests\ContaTest.class
 br\ce\marcos\pages\MovimentacaoPage.class
 br\ce\marcos\core\Propriedades$Browsers.class
+br\ce\marcos\core\Propriedades$TipoExecucao.class
 br\ce\marcos\pages\HomePage.class
 br\ce\marcos\tests\ResumoTest.class
 br\ce\marcos\core\DriverFactory.class
